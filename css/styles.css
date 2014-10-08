@@ -1,11 +1,4 @@
-.step {
-	position:relative;
-	display: inline;
-	line-height: 0;
-	width: 10%;
-	vertical-align: bottom;
-	top:-10px;
-}
+
 
 .size-12 { font-size: 12px; }  
 .size-14 { font-size: 14px; }
