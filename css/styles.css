@@ -1,0 +1,328 @@
+
+
+
+.size-12 { font-size: 12px; }  
+.size-14 { font-size: 14px; }
+.size-16 { font-size: 16px; }    
+.size-18 { font-size: 18px; }
+.size-21 { font-size: 21px; }   
+.size-24 { font-size: 24px; }  
+.size-36 { font-size: 36px; }		
+.size-48 { font-size: 48px; }    
+.size-60 { font-size: 60px; }    
+.size-72 { font-size: 72px; }
+
+.closebut{
+	cursor:pointer;
+}
+
+.closebut:hover{
+	color:red;
+}
+
+.landingPage{
+	text-align:center;
+	min-width:100%;
+	height: 100%;  
+	position: relative;  
+	z-index:9998;
+	background: url(../img/studio.jpg) no-repeat center center fixed;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+}
+
+.landingPage h1{
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 600; 
+}
+
+.landingPage .button{
+	width:90%;
+}
+
+.landingPage p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700; 
+	color:white;
+}
+
+#landingTitle{
+	margin-top:100px;
+}
+
+.departmentpanel{
+	text-align:center;
+}
+
+#topopenings{
+}
+
+#topopenings a:hover{
+	text-decoration:underline;
+}
+
+
+#isunderlined{
+	text-decoration:underline;
+}
+
+.departmentpanelinnercontainer{
+	
+}
+
+.departmentpanel a{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700;
+	text-decoration: none;
+	color:black;
+}
+
+.departmentpanel h4{
+	padding-bottom:20px;
+	text-align:center;
+   	font-family: 'Titillium Web', sans-serif;
+   	font-weight: 600;
+	font-size:20pt;
+}
+
+.deptpanel{
+	background:white;
+	text-align:center;
+	border: 10px solid white;
+}
+
+.deptpanel:hover{
+	cursor:pointer;
+}
+
+.deptpanel h4{
+	padding:5px;
+   	font-family: 'Titillium Web', sans-serif;
+   	font-weight: 600;
+	font-size:12pt;
+	color:white;
+}
+
+.deptpanel p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700; 
+	font-size:9pt;
+	color:white;
+}
+
+.pospanel{
+	background:white;
+	text-align:center;
+	border: 10px solid white;
+	height:150px;
+}
+
+.pospanel h4{
+	padding:5px;
+   	font-family: 'Titillium Web', sans-serif;
+   	font-weight: 600;
+	font-size:12pt;
+	color:white;
+	border-bottom:1px solid white;
+}
+
+.pospanel p{
+	font-family: 'Lato', sans-serif;
+	font-weight: 700; 
+	font-size:15pt;
+	color:white;
+}
+
+
+
+.allpositions{
+	font-family: 'Lato', sans-serif;
+	display:none;
+}
+
+.positionlistdiv{
+	padding:15px;
+	text-align:center;
+	margin-bottom:10px;
+	border:1px solid #CCCCCC;
+}
+
+.positionlistdiv:hover{	
+	background:#4D4D4D;
+	color:white;
+	cursor:pointer;
+}
+
+
+.brandig	{background-color:#EF5411;}
+.conscom	{background-color:#F15914;}
+.creat		{background-color:#F25D17;}
+.finan		{background-color:#F4621A}
+.humanin	{background-color:#F5661D;}
+.ideaman	{background-color:#F76B20;}
+.printser	{background-color:#F97022;}
+.produc		{background-color:#FA7425;}
+.projman	{background-color:#FC7928;}
+.publicr	{background-color:#FD7D2B;}
+.stratplan	{background-color:#FF822E;}
+
+
+/* ---------------------- PRETTYPHOTO -------------------*/
+.closedesc{
+	text-align:right;
+}
+
+.socialpanel{
+	position:relative;
+	height:90%;
+	text-align:center;
+	 border:3px solid red;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+}
+ 
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 88%;
+}
+
+.instapanel{
+	height:90%;
+	text-align:center;
+	 border:3px solid blue;
+}
+
+#instagramtest{
+    position: relative;
+	top: 50%;
+	    -webkit-transform: translateY(-50%);
+	    -ms-transform: translateY(-50%);
+	    transform: translateY(-50%);
+}
+
+.popular{
+	overflow:hidden;
+}
+
+/* ---------------------- SLIDES.JS -------------------*/
+
+.slider{
+	background-size: 100%;
+	height:100%;
+	text-align:center;
+	border:3px solid green;
+}
+
+#slides {
+	display: none;
+}
+
+#slider img {
+  width:100%;
+}
+
+.slidesjs-pagination {
+	position:relative;
+	float:right;
+	list-style: none;
+	margin-top:-20px;
+	z-index:9999;
+}
+
+.slidesjs-pagination li {
+  	margin: 0 1px;
+	display: inline-block;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(../img/pagination.png);
+  background-position: 0 0;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+.slidecaption{
+	position: absolute;
+	    left: 50%;
+	    top: 50%;
+
+	    /*
+	    *  Where the magic happens
+	    *  Centering method from CSS Tricks
+	    *  http://css-tricks.com/centering-percentage-widthheight-elements/
+	    */
+	    transform: translate(-50%, -50%);
+	    -webkit-transform: translate(-50%, -50%);
+	    -o-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%
+}
+
+
+
+
+
+
+/*   <!-- SlidesJS Required: These styles are required if you'd like a responsive slideshow --> */
+
+#slides {
+  display: none
+}
+
+.container {
+  margin: 0 auto;
+}
+
+/* For tablets & smart phones */
+@media (max-width: 767px) {
+  .container {
+     width: 100%
+  }
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+  .container {
+    width: 100%
+  }
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+    width: 100%
+  }
+}
+
+/* For larger displays */
+@media (min-width: 1200px) {
+  .container {
+    width: 100%
+  }
+}
+
+
+
+>>>>>>> bugFix
